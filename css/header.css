@@ -1,0 +1,13 @@
+.header {
+    display: flex;
+    justify-content: space-between;
+    transform: translatey(50px);
+    margin: 0 50px 0 50px;
+}
+.linklist {
+    display: flex;
+    gap: 35px;
+}
+.headlink {
+
+}
