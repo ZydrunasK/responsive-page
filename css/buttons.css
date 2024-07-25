@@ -1,3 +1,10 @@
 .btn {
-    
+    text-decoration: none;
+    background-color: white;
+    padding: 10px 30px;
+    border-radius: 1.2em;
+}
+.buy {
+    background-color: #ffd900;
+    color: black;
 }

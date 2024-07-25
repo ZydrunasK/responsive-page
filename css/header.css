@@ -1,5 +1,7 @@
 .header {
+    background-color: green;
     display: flex;
+    align-items: center;
     justify-content: space-between;
     transform: translatey(50px);
     margin: 0 50px 0 50px;
@@ -9,5 +11,5 @@
     gap: 35px;
 }
 .headlink {
-
+    text-decoration: none;
 }
