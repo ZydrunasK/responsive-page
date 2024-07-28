@@ -12,7 +12,10 @@ main section.middleSect {
     display: flex;
     position: relative;
     margin-top: 150px;
+    margin-bottom: 50px;
+    align-content: center;
     justify-content: center;
+    flex-wrap: wrap;
 }
 .boxL {
     position: relative;
