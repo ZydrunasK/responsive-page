@@ -11,9 +11,11 @@
     align-items: center;
     display: flex;
     flex-wrap: wrap;
+
     width: 70%;
 }
 .cont {
+    margin-top: 25px;
     position: relative;
     display: flex;
     flex-direction: column;
@@ -21,8 +23,16 @@
     gap: 15px;
     overflow: hidden;
 }
-img:hover {
-    transition: all 1s ease-in-out;
-    position: relative;
-    bottom: 10px;
+.imgbox {
+    border-radius: 5%;
+    box-shadow: 0 5px 15px 0px #0000005d;
 }
+a.cont:hover {
+    img {
+    position: relative;
+    transition: all 0.3s;
+    transform: translatey(-5px);
+    }
+}
+
+

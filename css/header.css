@@ -13,3 +13,23 @@
 .headlink {
     text-decoration: none;
 }
+.menu {
+    color: white;
+    display: none;
+}
+@media (max-width: 950px) {
+    .linklist {
+        background-color: red;
+        display: none;
+    }
+    .menu {
+        display: inline-block;
+    }
+}
+@media (max-width: 500px) {
+    .header {
+        margin: 0;
+        min-width: 300px;
+    }
+}
+
