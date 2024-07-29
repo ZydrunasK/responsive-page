@@ -56,3 +56,38 @@ main section.middleSect {
 .bold {
     font-weight: bold;
 }
+
+@media (max-width: 1100px) {
+    .boxL,
+    .boxR {
+        min-width: 400px;
+        max-width: 600;
+    }
+}
+@media (max-width: 900px) {
+    .boxL,
+    .boxR {
+        min-width: 0;
+        max-width: 100%;
+    }
+    main section.frontSect {
+        padding: 0 50px;
+    }
+}
+@media (max-width: 700px) {
+    .title {
+        max-width: 100%;
+        min-width: 0%;
+    }
+}
+@media (max-width: 500px) {
+    .boxL,
+    .boxR {
+        min-width: 0;
+        max-width: 100%;
+    }
+    main section.frontSect {
+        padding: 0 10px;
+        flex-wrap: wrap;
+    }
+}

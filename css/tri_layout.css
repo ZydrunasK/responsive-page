@@ -26,12 +26,23 @@
     border-radius: 5%;
     box-shadow: 0 5px 15px 0px #0000005d;
 }
-a.cont:hover {
-    img {
+img {
     position: relative;
     transition: all 0.3s;
+}
+a.cont:hover {
+    img {
     transform: translatey(-5px);
     }
 }
-
+@media (max-width: 1600px) {
+    .contbound {
+        width: 80%;
+    }
+}
+@media (max-width: 600px) {
+    .contbound {
+        width: 100%;
+    }
+}
 
