@@ -1,3 +1,21 @@
+.flex {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.flexColumn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.white {
+    color: white;
+}
+.yellow {
+    color: yellow;
+}
 .frontSect {
     display: flex;
     position: relative;
@@ -56,6 +74,57 @@
     text-decoration: none;
     font-size: 1.3em;
 }
+.redCont {
+    gap: 150px;
+    background-color: #92003B;
+    padding: 100px 0;
+}
+.textBox {
+    width: 500px;
+    align-items: flex-start;
+    gap: 20px;
+}
+.checkCont {
+    display: flex;
+    justify-content: flex-start;
+}
+.redSpan {
+    padding:  0 30px 15px 0px;
+}
+.imgBox img {
+    width: 600px;
+    border-radius: 15px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /* ---------------------------------------------- */
 /* ---------------------------------------------- */
 /* ---------------------------------------------- */

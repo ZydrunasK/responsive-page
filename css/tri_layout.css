@@ -1,8 +1,5 @@
 .triCont {
-    display: flex;
     background-color: grey;
-    justify-content: center;
-    flex-wrap: wrap;
 }
 .contbound {
     position: relative;
